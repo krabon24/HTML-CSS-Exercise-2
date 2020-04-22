@@ -1,0 +1,145 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ccc;
+    display: flex;
+    
+    height: 100vh;
+    font-size: 20px;
+}
+
+/* Main */
+.box1 {
+    max-width: 800px;
+    margin: 0px 300px 0 300px;
+    position: absolute;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    /* flex-direction: row; */
+}
+
+/* Paragraph Container */
+.pbox {
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 45%;
+    margin: 100px 5px 0px -230px;
+    position: relative;
+    /* right: 225px; */
+    /* display: inline; */
+    /* padding: 0px 50px 0px 0px;  */
+    /* justify-content: flex-start; */
+    /* display: flex; */
+}
+
+.pbox2 {
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    width: 45%;
+    position: relative;
+    margin: -10px 50px 0px 0px;
+}
+
+/* Picture Frame Container */
+.picbox {
+    position: relative;
+    margin: 135px 5px 0px 10px;
+    /* padding: 0px 20px 50px 20px; */
+    /* right: 20px; */
+    /* display: inline; */
+    /* width: 40%; */
+}
+
+.picbox2 {
+    position: relative;
+    margin: 20px 30px 0px 40px;
+}
+
+
+/* Font */
+h1 {
+    font-family: 'Seaweed Script', cursive;
+    padding-left: 40px;
+    display: flex;
+}
+
+p {
+    font-family: 'Nanum Brush Script', cursive;
+    flex-direction: row;
+    /* display: inline; */
+    /* margin-right: 20px; */  
+}
+
+p1 {
+    font-family: 'Nanum Brush Script', cursive;
+    color: #333; 
+    margin-bottom: 10px; 
+}
+
+p2 {
+    font-family: 'Nanum Brush Script', cursive;
+    color: #333; 
+    margin-bottom: 10px; 
+}
+
+/* Pictures */
+.pic1 {
+    width: 95%;
+    height: 40vh;
+    margin-bottom: 10px;
+    /* padding-bottom: 90px; */
+    /* margin: 0 auto; */
+    /* padding: 10%; */
+    padding: 0px 10px 0px 10px;
+    /* display: inline-block; */
+    
+    
+}
+
+.pic2 {
+    width: 95%;
+    height: 40vh;
+    margin-bottom: 10px;
+    padding: 0px 10px 0px 10px;
+    /* margin: 10px 0px 5px 0px; */
+}
+
+/* Photo Frame */
+.box2 {
+    background-color: white;
+    width: 350px;
+    padding: 10px 0px 0px 0px;
+    /* padding-top: 40px; */
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid #ddd;
+    box-shadow: 4px 4px 0px 0 #999;
+    transform: rotate(2deg);
+    /* flex-wrap: wrap; */
+    /* margin: 0px 0px 0px 400px; */
+    display: flex;
+    /* align-items: center; */
+}
+
+.box3 {
+    background-color: white;
+    width: 350px;
+    padding: 10px 0px 0px 0px;
+    flex-direction: column;
+    text-align: center;
+    border: 2px solid #ddd;
+    box-shadow: 4px 4px 0px 0 #999;
+    transform: rotate(-2deg);
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* margin: 0px 0px 0px 400px; */
+    /* display: flex; */
+}
+
+#reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
